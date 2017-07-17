@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace JwtWithWebAPI.DomainClasses
 {
     public class User

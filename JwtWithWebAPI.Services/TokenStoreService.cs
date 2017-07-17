@@ -11,7 +11,6 @@ namespace JwtWithWebAPI.Services
         private static readonly IList<UserToken> _tokens = new List<UserToken>();
 
         private readonly ISecurityService _securityService;
-
         public TokenStoreService(ISecurityService securityService)
         {
             _securityService = securityService;
